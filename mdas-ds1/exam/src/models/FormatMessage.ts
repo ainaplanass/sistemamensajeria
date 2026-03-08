@@ -10,7 +10,7 @@ export class FormatMessage
 
     public formatMessage( message: string ): string
     {
-        console.log( " formateando el puto mensaje ");
+        console.log( " formateando el mensaje ");
         let formatMessage = this.messageStrategy.format( message );
         return formatMessage;
     }

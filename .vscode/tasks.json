@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "tsc: build - tsconfig.json",
+            "type": "shell",
+            "command": "npx",
+            "args": [
+                "tsc",
+                "-p",
+                "${workspaceFolder}/mdas-ds1/exam/tsconfig.json"
+            ],
+            "group": "build",
+            "problemMatcher": "$tsc"
+        }
+    ]
+}

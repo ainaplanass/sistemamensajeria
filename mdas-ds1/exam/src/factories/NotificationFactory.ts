@@ -28,10 +28,12 @@ export class NotificationFactory
         {
             case "MARKETING":
                let marketingStrategy = new MarketingMessageStrategy();
-               message = marketingStrategy.format( message );     
+               message = marketingStrategy.format( message );    
+               break; 
             case "URGENT":
                let urgencyStrategy = new UrgentMessageStrategy();
                message = urgencyStrategy.format( message );
+               break;
         }
 
     console.log( message );

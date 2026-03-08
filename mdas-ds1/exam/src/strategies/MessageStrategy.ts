@@ -1,4 +1,4 @@
 export interface MessageStrategy
 {
-    format( message:string ):void;
+    format( message:string ):string;
 }

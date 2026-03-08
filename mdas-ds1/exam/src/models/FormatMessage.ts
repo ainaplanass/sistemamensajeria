@@ -8,7 +8,7 @@ export class FormatMessage
         this.messageStrategy = messageStrategy;
     }
 
-    public formatMessage( message: string ): void
+    public formatMessage( message: string ): string
     {
         console.log( " formateando el puto mensaje ");
         let formatMessage = this.messageStrategy.format( message );
